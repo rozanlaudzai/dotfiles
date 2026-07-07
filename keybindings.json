@@ -1,17 +1,22 @@
+// Place your key bindings in this file to override the defaults
 [
   {
     "key": "alt+d",
     "command": "editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
+    "when": "editorFocus",
   },
   {
     "key": "a",
     "command": "explorer.newFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus",
   },
   {
     "key": "d",
     "command": "moveFileToTrash",
-    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus"
-  }
+    "when": "explorerViewletVisible && filesExplorerFocus && !inputFocus",
+  },
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleSidebarVisibility",
+  },
 ]
